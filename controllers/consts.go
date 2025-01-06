@@ -1,0 +1,10 @@
+package controllers
+const BASE_REL_PATH string = ".gitGo/"
+const REFS_REL_PATH string = "refs/"
+const MAIN_REL_PATH string = "main/"
+const OBJECT_REL_PATH string = "objects/"
+const COMMIT_TREE_REL_PATH string = "commits/"
+const COMMIT_TREE_NAME string = "tree.gotem"
+const FILENAME_PATH_NAME string = "filename.gotem"
+const STASH_REL_PATH string =  "stash/"
+const STACK_FILE_NAME string = "stash.stack"
