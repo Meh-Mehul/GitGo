@@ -16,5 +16,5 @@ This is a simple Git-like File Tracker i made in Golang. It supports almost all 
 9. ```gitGo.exe diff [file1] [file2]``` to get diff data between two files.
 
 ## Notes:
-1. This implementation does NOT support merging two branches yet because i have implemented the Commits in form of a DAG and not a graph.
+1. This implementation does NOT support merging two branches yet because i have implemented the Commits in form of a Tree and not a graph.
 2. This is completely brute-force storing of compressed file-objects (and not deltas).
